@@ -11,12 +11,11 @@ jobs:
     
     steps:
     - name: Checkout code
-    uses: actions/checkout@v2
-    
-    
+      uses: actions/checkout@v2
+  
     - name: Install Package
-    run: pip install pytest
+      run: pip install pytest
     
     
     - name: Run tests
-    run: pytest test.py
+      run: pytest test.py

@@ -1,6 +1,6 @@
 
 class Wallet:
-  def __init__(self, balance):
+  def __init__(self):
     self.balance = 0
     
   def setBalance(self,val):
